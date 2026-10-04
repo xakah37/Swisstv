@@ -1,11 +1,9 @@
 #EXTM3U url-tvg="#EXTM3U url-tvg="https://www.open-epg.com/files/France.xml"|
-#EXTREM:Switzerland  
+#EXTREM:Switzerland
 #EXTINF:-1 tvg-id="trtturk.tr" tvg-logo="https://picserve.netplus.ch/channels/trtturk.png" group-title="Other's",TRT TURK HD
 https://viamotionhsi.netplus.ch/live/eds/trtturk/browser-dash/trtturk.mpd
 #EXTINF:-1 tvg-id="startv.ch" group-title="Other's",startv D HD
 https://viamotionhsi.netplus.ch/live/eds/startv/browser-HLS8/startv.m3u8
-#EXTINF:-1 tvg-id="atv.de" group-title="Other's",atv HD
-http://212.186.45.34:9981/stream/channelid/692531719?profile=pass
 #EXTINF:-1 tvg-id="eurod.tr" tvg-logo="https://picserve.netplus.ch/channels/eurod.png" group-title="Other's",EUROD FHD
 https://viamotionhsi.netplus.ch/live/eds/eurod/browser-dash/eurod.mpd
 #EXTINF:-1 tvg-id="showturk.tr" tvg-logo="https://picserve.netplus.ch/channels/showturk.png" group-title="Other's",show turk HD
@@ -56,14 +54,16 @@ https://viamotionhsi.netplus.ch/live/eds/artehd/browser-dash/artehd.mpd
 https://viamotionhsi.netplus.ch/live/eds/tv5mondefbs/browser-dash/tv5mondefbs.mpd
 #EXTINF:-1 tvg-id="figarotv.com" tvg-logo="https://picserve.netplus.ch/channels/figarotv.png" group-title="TNT",Figaro TV HD
 https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8
-#EXTINF:-1 tvg-id="cgtn.com" tvg-logo="https://picserve.netplus.ch/channels/cgtn.png",CGTN français
-https://francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8
+#EXTINF:-1 tvg-id="FR:.CGTN.fr" tvg-name="CGTN Français  (CN)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/CGTN_-_français.png/330px-CGTN_-_français.png" tvg-country="Chine" group-title="Généraliste",CGTN Français  (CN)
+https://tvradiozap.eu/668
 #EXTINF:-1 tvg-id="planeteplus.fr" tvg-logo="https://picserve.netplus.ch/channels/planeteplus.png" group-title="Documentaires",PLANETE+ HD
 https://viamotionhsi.netplus.ch/live/eds/planeteplus/browser-dash/planeteplus.mpd
 #EXTINF:-1 tvg-id="animaux.fr" tvg-logo="https://picserve.netplus.ch/channels/animaux.png" group-title="Documentaires",ANIMAUX HD
 https://viamotionhsi.netplus.ch/live/eds/animaux/browser-dash/animaux.mpd
 #EXTINF:-1 tvg-id="escales.fr" tvg-logo="https://picserve.netplus.ch/channels/escales.png" group-title="Documentaires",TREK HD
 https://viamotionhsi.netplus.ch/live/eds/escales/browser-dash/escales.mpd
+#EXTINF:-1  tvg-name="Rustica" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd1pcqPtOUwEsvh_Pd99Kak6RR6eJH66qfwGEAtFvy8zgfo38mEvvw&usqp=CAE&s" tvg-country="France" group-title="Documentaires",Rustica
+https://tvradiozap.eu/1220
 #EXTINF:-1 tvg-id="FRBC3900004DS" tvg-name="Cap Terre" tvg-logo="https://lookaa.net/live/tv/capterre.jpeg" tvg-country="France" group-title="Documentaires",Cap Terre
 https://tvradiozap.eu/963
 #EXTINF:-1 tvg-id="FR:.Travelxp.fr" tvg-name="Travelxp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Txphd_logo_2015.png" tvg-country="France" group-title="Documentaires",Travelxp
@@ -98,16 +98,24 @@ https://tvradiozap.eu/1018
 https://tvradiozap.eu/492
 #EXTINF:-1 tvg-id="RMCTalkInfo.fr" tvg-name="RMC Talk Info" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/edito/attachment/animation/tile/imgrectangle1920RMCTalkinfo.jpg" tvg-country="France" group-title="Documentaires",RMC Talk Info
 https://tvradiozap.eu/869
-#EXTINF:-1  tvg-name="Rustica" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd1pcqPtOUwEsvh_Pd99Kak6RR6eJH66qfwGEAtFvy8zgfo38mEvvw&usqp=CAE&s" tvg-country="France" group-title="Documentaires",Rustica
-https://tvradiozap.eu/1220
+#EXTINF:-1  tvg-name="Crime Scene" tvg-logo="https://image.xumo.com/v1/channels/channel/99994448/600x200.png?type=white_cropped" tvg-country="France" group-title="Documentaires",Crime Scene
+https://tvradiozap.eu/1155
+#EXTINF:-1  tvg-name="Into Crime" tvg-logo="https://images.plex.tv/photo?size=small-60&scale=2&url=https://provider-static.plex.tv/epg/cms/production/82ee42cc-ff1b-4faa-97df-d99ff9b9b7e2/INTOCRIMELRED_WHITE_TEXTRDX.png" tvg-country="France" group-title="Documentaires",Into Crime
+https://tvradiozap.eu/1293
+#EXTINF:-1  tvg-name="Crime Enquêtes & Faits divers" tvg-logo="https://img1.oqee.net/channel_pictures/3738/w300" tvg-country="France" group-title="Documentaires",Crime Enquêtes & Faits divers
+https://tvradiozap.eu/81
+#EXTINF:-1  tvg-name="100% Docs Crime" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD39000064E_20251118T015629SQUARE.png" tvg-country="France" group-title="Documentaires",100% Docs Crime
+https://tvradiozap.eu/1545
+#EXTINF:-1  tvg-name="Love Crime & History" tvg-logo="https://images.plex.tv/photo?size=small-120&scale=3&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F6f2c8bea-d8e2-4d2f-b72d-af7539f1f435%2FLogo_Love_Crime_History_1500x1000_DarkBackground_-_David_Mar__n.png" tvg-country="France" group-title="Documentaires",Love Crime & History
+https://tvradiozap.eu/262
 #EXTINF:-1 tvg-id="FR3600005C7" tvg-name="Voyages et Saveurs" tvg-logo="https://images.pluto.tv/channels/680291e38e1ff89c2427aefd/featuredImage_1749650211199.jpg?auto=&ixlib=react-9.1.5&w=448&h=248&dpr=2&q=20" tvg-country="France" group-title="Documentaires",Voyages et Saveurs
 https://tvradiozap.eu/1045
-#EXTINF:-1  tvg-name="TV5Monde+ Voyage" tvg-logo="https://worldscreen.com/wp-content/uploads/2024/10/TV5MondeVoyage-Logo-1024.jpg" tvg-country="France" group-title="Documentaires",TV5Monde+ Voyage
-https://tvradiozap.eu/417
 #EXTINF:-1 tvg-id="Lessecretsdenosregions.fr" tvg-name="Les secrets de nos régions" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/bf4a91c7-9a64-4071-af09-fa4646c4005d-width200-quality90.jpeg" tvg-country="France" group-title="Documentaires",Les secrets de nos régions
 https://tvradiozap.eu/442
 #EXTINF:-1  tvg-name="Arte Invitation au Voyage" tvg-logo="https://princealbert1.mc/var/cap/storage/images/_aliases/w2160/7/7/4/0/50477-1-fre-FR/1e396f6f66bb-th-1-.jpg2.jpg" tvg-country="France" group-title="Documentaires",Arte Invitation au Voyage
 https://tvradiozap.eu/91
+#EXTINF:-1  tvg-name="TV5Monde+ Voyage" tvg-logo="https://worldscreen.com/wp-content/uploads/2024/10/TV5MondeVoyage-Logo-1024.jpg" tvg-country="France" group-title="Documentaires",TV5Monde+ Voyage
+https://tvradiozap.eu/417
 #EXTINF:-1 tvg-id="Mieux.fr" tvg-name="Mieux" tvg-logo="https://www.francetvpub.fr/wp-content/uploads/2025/08/bandeau-site-mieux-768x243.png" tvg-country="France" group-title="Documentaires",Mieux
 https://tvradiozap.eu/1362
 #EXTINF:-1  tvg-name="750G" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/750g_logo.png/330px-750g_logo.png" tvg-country="France" group-title="Documentaires",750G
@@ -120,26 +128,16 @@ https://tvradiozap.eu/650
 https://tvradiozap.eu/1094
 #EXTINF:-1 tvg-id="BFMGrandsReportages.fr" tvg-name="BFM Grands Reportages" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/edito/attachment/animation/tile/imgrectangle10920BFMGrandsreportages.jpg" tvg-country="France" group-title="Documentaires",BFM Grands Reportages
 https://tvradiozap.eu/724
-#EXTINF:-1  tvg-name="Crime Scene" tvg-logo="https://image.xumo.com/v1/channels/channel/99994448/600x200.png?type=white_cropped" tvg-country="France" group-title="Documentaires",Crime Scene
-https://tvradiozap.eu/1155
-#EXTINF:-1  tvg-name="Into Crime" tvg-logo="https://images.plex.tv/photo?size=small-60&scale=2&url=https://provider-static.plex.tv/epg/cms/production/82ee42cc-ff1b-4faa-97df-d99ff9b9b7e2/INTOCRIMELRED_WHITE_TEXTRDX.png" tvg-country="France" group-title="Documentaires",Into Crime
-https://tvradiozap.eu/1293
-#EXTINF:-1  tvg-name="100% Docs Crime" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD39000064E_20251118T015629SQUARE.png" tvg-country="France" group-title="Documentaires",100% Docs Crime
-https://tvradiozap.eu/1545
+#EXTINF:-1 tvg-id="FR:.Enquêtes.de.Choc.fr" tvg-name="Enquêtes de Choc" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/3098ea90-a872-4b58-b680-f25cb90b370c-width200-quality90.jpeg" tvg-country="France" group-title="Documentaires",Enquêtes de Choc
+https://tvradiozap.eu/541
+#EXTINF:-1 tvg-id="100docs.fr" tvg-name="Docs & Enquêtes Society+" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR15000010E_20260528T055328SQUARE.png" tvg-country="France" group-title="Documentaires",Docs & Enquêtes Society+
+https://tvradiozap.eu/1054
+#EXTINF:-1 tvg-id="FR:La.chaine.du.fait.divers.fr" tvg-name="Homicide" tvg-logo="https://provider-static.plex.tv/epg/cms/production/84791923-c240-4b13-99c5-cafab9931e33/HOMICIDE_ARTWORK_VERTICAL__-_richard_maroko.jpg" tvg-country="France" group-title="Documentaires",Homicide
+https://tvradiozap.eu/1023
 #EXTINF:-1  tvg-name="Au coeur du danger" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3900002FW_20260310T031715SQUARE.png" tvg-country="France" group-title="Documentaires",Au coeur du danger
 https://tvradiozap.eu/1074
 #EXTINF:-1  tvg-name="Adrénaline" tvg-logo="https://provider-static.plex.tv/epg/cms/production/8fb17498-49c7-4b4b-9149-dd92d51a8516/Adrenaline_logo_1500x1000_all_white_for_attribution.png" tvg-country="France" group-title="Documentaires",Adrénaline
 https://tvradiozap.eu/1228
-#EXTINF:-1  tvg-name="Crime Enquêtes & Faits divers" tvg-logo="https://img1.oqee.net/channel_pictures/3738/w300" tvg-country="France" group-title="Documentaires",Crime Enquêtes & Faits divers
-https://tvradiozap.eu/81
-#EXTINF:-1 tvg-id="FR:La.chaine.du.fait.divers.fr" tvg-name="Homicide" tvg-logo="https://provider-static.plex.tv/epg/cms/production/84791923-c240-4b13-99c5-cafab9931e33/HOMICIDE_ARTWORK_VERTICAL__-_richard_maroko.jpg" tvg-country="France" group-title="Documentaires",Homicide
-https://tvradiozap.eu/1023
-#EXTINF:-1 tvg-id="100docs.fr" tvg-name="Docs & Enquêtes Society+" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR15000010E_20260528T055328SQUARE.png" tvg-country="France" group-title="Documentaires",Docs & Enquêtes Society+
-https://tvradiozap.eu/1054
-#EXTINF:-1 tvg-id="FR:.Enquêtes.de.Choc.fr" tvg-name="Enquêtes de Choc" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/3098ea90-a872-4b58-b680-f25cb90b370c-width200-quality90.jpeg" tvg-country="France" group-title="Documentaires",Enquêtes de Choc
-https://tvradiozap.eu/541
-#EXTINF:-1  tvg-name="Love Crime & History" tvg-logo="https://images.plex.tv/photo?size=small-120&scale=3&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F6f2c8bea-d8e2-4d2f-b72d-af7539f1f435%2FLogo_Love_Crime_History_1500x1000_DarkBackground_-_David_Mar__n.png" tvg-country="France" group-title="Documentaires",Love Crime & History
-https://tvradiozap.eu/262
 #EXTINF:-1  tvg-name="Mayday Catastrophes Aériennes" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/3b014c48-5490-4318-8b8e-7dc4e4861ef3/variants/49f6b89bd291722c227e312eaa7d04e4380b4c0b7611bf68a82c328d2c00fcb9-width308-quality90.webp" tvg-country="France" group-title="Documentaires",Mayday Catastrophes Aériennes
 https://tvradiozap.eu/879
 #EXTINF:-1  tvg-name="Mission Intervention" tvg-logo="https://pbs.twimg.com/media/HK6tvfZX0AA8_rY.jpg?format=jpg" tvg-country="France" group-title="Documentaires",Mission Intervention
@@ -617,9 +615,6 @@ https://viamotionhsi.netplus.ch/live/eds/bntworld/browser-dash/bntworld.mpd
 https://viamotionhsi.netplus.ch/live/eds/tvrinternational/browser-dash/tvrinternational.mpd
 #EXTINF:-1 tvg-id="bvn.nl" tvg-logo="https://picserve.netplus.ch/channels/bvn.png",BVN
 https://viamotionhsi.netplus.ch/live/eds/bvn/browser-dash/bvn.mpd
-#EXTINF:-1 tvg-id="rtk1.xk" tvg-logo="https://picserve.netplus.ch/channels/rtk1.png",RTK1 SAT HD
-#EXTREM https://viamotionhsi.netplus.ch/live/eds/rtk1/browser-dash/rtk1.mpd
-https://gjirafa-video-live.gjirafa.net/gjvideo-livestream/rtk-sat/tracks-v4a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ptccbet.rs" tvg-logo="https://picserve.netplus.ch/channels/rtssat.png",PTC CBET HD
 https://viamotionhsi.netplus.ch/live/eds/rtssat/browser-dash/rtssat.mpd
 #EXTINF:-1 tvg-id="mne.me" tvg-logo="https://picserve.netplus.ch/channels/rtcg.png",MNE HD
@@ -660,8 +655,6 @@ https://dyc8bdiow0oz1.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://fastmedia-enquetesdechoc-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-fastmedia-enquetesdechoc-rakuten/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="VosgesTV.fr" tvg-name="Vosges TV" tvg-logo="https://i.postimg.cc/6qSJsv8k/vosgestv.png" ,Vosges TV
 https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
-#EXTINF:-1 tvg-id="MDL.fr" tvg-name="MDL" tvg-logo="https://www.mondeduloisir.fr/wp-content/uploads/2016/07/Logo3_URL_Slogan_Noir_MICRO.png" tvg-country="France" group-title="Divertissement",MDL
-https://tvradiozap.eu/943
 #EXTINF:-1 tvg-id="rtscouleur3.ch",RTS Couleur3 TV
 https://visualradio-rts-couleur3-d.akamaized.net/out/v1/6a1472634ad745f59a9e63ee8adbbc00/index.m3u8
 #EXTINF:-1 tvg-id="lequipe.fr",L'EQUIPE
@@ -695,8 +688,6 @@ https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8?FLID=1
 https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
 #EXTINF:-1,English Club TV
 https://dash4.antik.sk/live/test_ectv_hd_1200/playlist.m3u8
-#EXTINF:-1,MotorVision classic HD
-https://mvg-mv-cl-wedotv.otteravision.com/mvg/mv_cl/mv_cl_1080.m3u8
 #EXTINF:-1,MotorVision english HD
 https://mvg-mv-wedotv.otteravision.com/mvg/mv/mv_1080p.m3u8
 #EXTINF:-1,Auto Bild HD
@@ -731,4 +722,15 @@ https://madrasfmtv.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/i.m3u8
 #EXTINF:-1 tvg-id="icitelevision.ca",ICI Television Québec HD
 https://amdici.akamaized.net/hls/live/873426/ICI-Live-Stream/master.m3u8
+#EXTINF:-1 tvg-id="adn.com" ,ADN Animation Digital Network HD
+https://mtd-adn-netgem.otteravision.com/mtd/adn/adn_720p_high.m3u8
+#EXTINF:-1 tvg-id="MDL.fr" tvg-name="MDL" tvg-logo="https://www.mondeduloisir.fr/wp-content/uploads/2016/07/Logo3_URL_Slogan_Noir_MICRO.png" tvg-country="France" group-title="Divertissement",MDL
+https://tvradiozap.eu/943
+#EXTINF:-1,MotorVision classic HD
+https://mvg-mv-cl-wedotv.otteravision.com/mvg/mv_cl/mv_cl_1080.m3u8
+#EXTINF:-1 tvg-id="rtk1.xk" tvg-logo="https://picserve.netplus.ch/channels/rtk1.png",RTK1 SAT HD
+#EXTREM https://viamotionhsi.netplus.ch/live/eds/rtk1/browser-dash/rtk1.mpd
+https://gjirafa-video-live.gjirafa.net/gjvideo-livestream/rtk-sat/tracks-v4a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="atv.de" group-title="Other's",atv HD
+http://212.186.45.34:9981/stream/channelid/692531719?profile=pass
 #EXTINF
